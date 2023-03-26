@@ -21,9 +21,6 @@ Only Registered User will be able to login, few of them are listed below :-
 "password": "jklg*_56"
 }
 
-# Razorpay integration -
-test integration on Cart page for checkout purpose
-Acceptable cards and UPI id can be found on Razorpay docs - https://razorpay.com/docs/payments/payments/test-card-upi-details/
 
 # Checkout here - 
-https://e-commerce-fe-anmol-pandey.netlify.app/
+https://bejewelled-kelpie-c75b70.netlify.app
