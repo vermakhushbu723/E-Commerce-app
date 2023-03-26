@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Lobster&display=swap');
+
+.container{
+    height: 85vh;
+    width: 100vw;
+    background-image: url('https://cdn.dribbble.com/users/1408464/screenshots/6377404/404_illustration_4x.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.errorHeading{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-weight: 100;
+}
+
+.dontWorry{
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.backToHome{
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 3px solid rgb(11, 97, 205);
+    border-radius: 20px;
+}

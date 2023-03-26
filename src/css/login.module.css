@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.container form {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px 2px grey;
+    position: absolute;
+    animation: zoom-in .2s ease-in;
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.container form input {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: .5px solid grey;
+}
+
+.login {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: rgb(23, 32, 87);
+    color: white;
+    border-radius: 10px;
+}
+
+.errorMessage {
+    color: red;
+}

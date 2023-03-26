@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(23, 32, 87);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.utilities {
+    display: flex;
+}
+
+.logo,
+.user,
+.cart {
+    margin: 10px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.user {
+    padding-right: 50px;
+}
+
+.logo {
+    user-select: none;
+    font-size: 1.5rem;
+    margin: 5px;
+    font-family: cursive;
+}
+
+.cart a , .user a, .logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.addAProduct {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: .85rem;
+    transition: all .2s ease;
+}
+.addAProduct a{
+    color: black;
+}
+.addAProduct:active {
+    transform: scale(.95);
+}

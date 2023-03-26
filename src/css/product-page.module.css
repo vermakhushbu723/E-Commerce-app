@@ -1,0 +1,64 @@
+.container {
+    width: 100vw;
+    padding: 15px;
+    display: flex;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.image {
+    width: 500px;
+    padding: 0px 20px;
+}
+
+.details {
+    width: 60vw;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.price {
+    margin: 10px 0px;
+    font-size: 2rem;
+}
+
+.price span {
+    font-size: 1.5rem;
+}
+
+.description {
+    margin: 10px 0px;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.addToCart {
+    margin: 10px 0px;
+    background-color: rgb(221, 126, 9);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.rating {
+    /* padding: 10px; */
+    display: flex;
+}
+
+.rate i {
+    color: gold;
+}
+
+.rate,
+.count {
+    margin: 0px;
+    padding-right: 30px;
+}
